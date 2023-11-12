@@ -1,0 +1,66 @@
+.location{
+    &__container{
+        display: flex;
+        flex-direction: column;
+
+        border-left: 1px solid;
+
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+    &__title{  
+        display: flex; 
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        
+
+
+        &__h1{
+            display: flex;
+            font-weight: 300;
+            font-size: 60px;
+        }
+    }
+
+    &__items{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        
+
+        &__headline{
+            display: flex;
+            font-weight: 600;
+        }
+
+       
+
+        &__reviews{
+
+        }
+
+
+
+            
+            &__rating{
+                display: flex;
+
+                &__num{
+
+                }
+                &__stars{
+
+                }
+            }
+            
+       
+    }
+}
